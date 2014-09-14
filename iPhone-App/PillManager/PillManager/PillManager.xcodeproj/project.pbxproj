@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5909DA1DF11944F6924F8DCE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4497A729DAF84FF88469F107 /* libPods.a */; };
+		CD1BC31919C4DB7A00E17926 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC30E19C4DB7A00E17926 /* TitilliumWeb-Black.ttf */; };
+		CD1BC31A19C4DB7A00E17926 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC30F19C4DB7A00E17926 /* TitilliumWeb-Bold.ttf */; };
+		CD1BC31B19C4DB7A00E17926 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31019C4DB7A00E17926 /* TitilliumWeb-BoldItalic.ttf */; };
+		CD1BC31C19C4DB7A00E17926 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31119C4DB7A00E17926 /* TitilliumWeb-ExtraLight.ttf */; };
+		CD1BC31D19C4DB7A00E17926 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31219C4DB7A00E17926 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		CD1BC31E19C4DB7A00E17926 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31319C4DB7A00E17926 /* TitilliumWeb-Italic.ttf */; };
+		CD1BC31F19C4DB7A00E17926 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31419C4DB7A00E17926 /* TitilliumWeb-Light.ttf */; };
+		CD1BC32019C4DB7A00E17926 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31519C4DB7A00E17926 /* TitilliumWeb-LightItalic.ttf */; };
+		CD1BC32119C4DB7A00E17926 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31619C4DB7A00E17926 /* TitilliumWeb-Regular.ttf */; };
+		CD1BC32219C4DB7A00E17926 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31719C4DB7A00E17926 /* TitilliumWeb-SemiBold.ttf */; };
+		CD1BC32319C4DB7A00E17926 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC31819C4DB7A00E17926 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		CD689FE519C4791000E25CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD689FE419C4791000E25CAC /* Foundation.framework */; };
+		CD689FE719C4791000E25CAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD689FE619C4791000E25CAC /* CoreGraphics.framework */; };
+		CD689FE919C4791000E25CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD689FE819C4791000E25CAC /* UIKit.framework */; };
+		CD689FEF19C4791000E25CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD689FED19C4791000E25CAC /* InfoPlist.strings */; };
+		CD689FF119C4791000E25CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD689FF019C4791000E25CAC /* main.m */; };
+		CD689FF519C4791000E25CAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD689FF419C4791000E25CAC /* AppDelegate.m */; };
+		CD689FF819C4791000E25CAC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD689FF619C4791000E25CAC /* Main_iPhone.storyboard */; };
+		CD689FFB19C4791000E25CAC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD689FF919C4791000E25CAC /* Main_iPad.storyboard */; };
+		CD689FFE19C4791000E25CAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD689FFD19C4791000E25CAC /* ViewController.m */; };
+		CD68A00019C4791000E25CAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD689FFF19C4791000E25CAC /* Images.xcassets */; };
+		CD68A00719C4791000E25CAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD68A00619C4791000E25CAC /* XCTest.framework */; };
+		CD68A00819C4791000E25CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD689FE419C4791000E25CAC /* Foundation.framework */; };
+		CD68A00919C4791000E25CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD689FE819C4791000E25CAC /* UIKit.framework */; };
+		CD68A01119C4791000E25CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD68A00F19C4791000E25CAC /* InfoPlist.strings */; };
+		CD68A01319C4791000E25CAC /* PillManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68A01219C4791000E25CAC /* PillManagerTests.m */; };
+		CD934A9D19C4EDCF0052B4E6 /* pillbox_logo_Startscreen_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934A9C19C4EDCF0052B4E6 /* pillbox_logo_Startscreen_transparent.png */; };
+		CD934AA319C4FC800052B4E6 /* PatientListTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD934AA219C4FC800052B4E6 /* PatientListTableTableViewController.m */; };
+		CD934AA619C4FD2D0052B4E6 /* PatientListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD934AA519C4FD2D0052B4E6 /* PatientListCell.m */; };
+		CD934AB119C58E540052B4E6 /* mädchen_130x165.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AA719C58E540052B4E6 /* mädchen_130x165.jpg */; };
+		CD934AB219C58E540052B4E6 /* mädchen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AA819C58E540052B4E6 /* mädchen.jpg */; };
+		CD934AB319C58E540052B4E6 /* Oma1_130x165.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AA919C58E540052B4E6 /* Oma1_130x165.jpg */; };
+		CD934AB419C58E540052B4E6 /* Oma1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AAA19C58E540052B4E6 /* Oma1.jpg */; };
+		CD934AB519C58E540052B4E6 /* opa1_130x165.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AAB19C58E540052B4E6 /* opa1_130x165.jpg */; };
+		CD934AB619C58E540052B4E6 /* opa1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AAC19C58E540052B4E6 /* opa1.jpg */; };
+		CD934AB719C58E540052B4E6 /* woman1_130x165.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AAD19C58E540052B4E6 /* woman1_130x165.jpg */; };
+		CD934AB819C58E540052B4E6 /* woman1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AAE19C58E540052B4E6 /* woman1.jpg */; };
+		CD934AB919C58E540052B4E6 /* woman2_130x165.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AAF19C58E540052B4E6 /* woman2_130x165.jpg */; };
+		CD934ABA19C58E540052B4E6 /* woman2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD934AB019C58E540052B4E6 /* woman2.jpg */; };
+		CD934ABD19C592490052B4E6 /* Bildschirmfoto 2014-09-14 um 11.01.27.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934ABC19C592490052B4E6 /* Bildschirmfoto 2014-09-14 um 11.01.27.png */; };
+		CD934ABF19C598DD0052B4E6 /* Bildschirmfoto 2014-09-14 um 11.33.29.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934ABE19C598DD0052B4E6 /* Bildschirmfoto 2014-09-14 um 11.33.29.png */; };
+		CD934AC919C59D2E0052B4E6 /* pillbox_logo_29.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC019C59D2E0052B4E6 /* pillbox_logo_29.png */; };
+		CD934ACA19C59D2E0052B4E6 /* pillbox_logo_40.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC119C59D2E0052B4E6 /* pillbox_logo_40.png */; };
+		CD934ACB19C59D2E0052B4E6 /* pillbox_logo_58.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC219C59D2E0052B4E6 /* pillbox_logo_58.png */; };
+		CD934ACC19C59D2E0052B4E6 /* pillbox_logo_60.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC319C59D2E0052B4E6 /* pillbox_logo_60.png */; };
+		CD934ACD19C59D2E0052B4E6 /* pillbox_logo_76.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC419C59D2E0052B4E6 /* pillbox_logo_76.png */; };
+		CD934ACE19C59D2E0052B4E6 /* pillbox_logo_80.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC519C59D2E0052B4E6 /* pillbox_logo_80.png */; };
+		CD934ACF19C59D2E0052B4E6 /* pillbox_logo_120.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC619C59D2E0052B4E6 /* pillbox_logo_120.png */; };
+		CD934AD019C59D2E0052B4E6 /* pillbox_logo_152.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC719C59D2E0052B4E6 /* pillbox_logo_152.png */; };
+		CD934AD119C59D2E0052B4E6 /* pillbox_logo_512.png in Resources */ = {isa = PBXBuildFile; fileRef = CD934AC819C59D2E0052B4E6 /* pillbox_logo_512.png */; };
+		CDBA920B19C48CAB005F61EB /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBA920A19C48CAB005F61EB /* APIClient.m */; };
+		CDBA920E19C48CB2005F61EB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBA920D19C48CB2005F61EB /* LoginViewController.m */; };
+		CDBA921019C494DF005F61EB /* header_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CDBA920F19C494DF005F61EB /* header_bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD68A00A19C4791000E25CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD689FD919C4791000E25CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD689FE019C4791000E25CAC;
+			remoteInfo = PillManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4497A729DAF84FF88469F107 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D058FB7E4794EADBA2B015F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CD1BC30E19C4DB7A00E17926 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Black.ttf"; path = "fonts/titillium_web/TitilliumWeb-Black.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC30F19C4DB7A00E17926 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Bold.ttf"; path = "fonts/titillium_web/TitilliumWeb-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31019C4DB7A00E17926 /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-BoldItalic.ttf"; path = "fonts/titillium_web/TitilliumWeb-BoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31119C4DB7A00E17926 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-ExtraLight.ttf"; path = "fonts/titillium_web/TitilliumWeb-ExtraLight.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31219C4DB7A00E17926 /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-ExtraLightItalic.ttf"; path = "fonts/titillium_web/TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31319C4DB7A00E17926 /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Italic.ttf"; path = "fonts/titillium_web/TitilliumWeb-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31419C4DB7A00E17926 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Light.ttf"; path = "fonts/titillium_web/TitilliumWeb-Light.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31519C4DB7A00E17926 /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-LightItalic.ttf"; path = "fonts/titillium_web/TitilliumWeb-LightItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31619C4DB7A00E17926 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-Regular.ttf"; path = "fonts/titillium_web/TitilliumWeb-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31719C4DB7A00E17926 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-SemiBold.ttf"; path = "fonts/titillium_web/TitilliumWeb-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
+		CD1BC31819C4DB7A00E17926 /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TitilliumWeb-SemiBoldItalic.ttf"; path = "fonts/titillium_web/TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		CD689FE119C4791000E25CAC /* PillManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD689FE419C4791000E25CAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD689FE619C4791000E25CAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD689FE819C4791000E25CAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD689FEC19C4791000E25CAC /* PillManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PillManager-Info.plist"; sourceTree = "<group>"; };
+		CD689FEE19C4791000E25CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD689FF019C4791000E25CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD689FF219C4791000E25CAC /* PillManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PillManager-Prefix.pch"; sourceTree = "<group>"; };
+		CD689FF319C4791000E25CAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD689FF419C4791000E25CAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD689FF719C4791000E25CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CD689FFA19C4791000E25CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CD689FFC19C4791000E25CAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD689FFD19C4791000E25CAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD689FFF19C4791000E25CAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD68A00519C4791000E25CAC /* PillManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD68A00619C4791000E25CAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD68A00E19C4791000E25CAC /* PillManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PillManagerTests-Info.plist"; sourceTree = "<group>"; };
+		CD68A01019C4791000E25CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD68A01219C4791000E25CAC /* PillManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PillManagerTests.m; sourceTree = "<group>"; };
+		CD934A9C19C4EDCF0052B4E6 /* pillbox_logo_Startscreen_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_Startscreen_transparent.png; sourceTree = SOURCE_ROOT; };
+		CD934AA119C4FC800052B4E6 /* PatientListTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientListTableTableViewController.h; sourceTree = "<group>"; };
+		CD934AA219C4FC800052B4E6 /* PatientListTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientListTableTableViewController.m; sourceTree = "<group>"; };
+		CD934AA419C4FD2D0052B4E6 /* PatientListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientListCell.h; sourceTree = "<group>"; };
+		CD934AA519C4FD2D0052B4E6 /* PatientListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientListCell.m; sourceTree = "<group>"; };
+		CD934AA719C58E540052B4E6 /* mädchen_130x165.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mädchen_130x165.jpg"; sourceTree = "<group>"; };
+		CD934AA819C58E540052B4E6 /* mädchen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mädchen.jpg"; sourceTree = "<group>"; };
+		CD934AA919C58E540052B4E6 /* Oma1_130x165.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oma1_130x165.jpg; sourceTree = "<group>"; };
+		CD934AAA19C58E540052B4E6 /* Oma1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oma1.jpg; sourceTree = "<group>"; };
+		CD934AAB19C58E540052B4E6 /* opa1_130x165.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = opa1_130x165.jpg; sourceTree = "<group>"; };
+		CD934AAC19C58E540052B4E6 /* opa1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = opa1.jpg; sourceTree = "<group>"; };
+		CD934AAD19C58E540052B4E6 /* woman1_130x165.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woman1_130x165.jpg; sourceTree = "<group>"; };
+		CD934AAE19C58E540052B4E6 /* woman1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woman1.jpg; sourceTree = "<group>"; };
+		CD934AAF19C58E540052B4E6 /* woman2_130x165.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woman2_130x165.jpg; sourceTree = "<group>"; };
+		CD934AB019C58E540052B4E6 /* woman2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woman2.jpg; sourceTree = "<group>"; };
+		CD934ABC19C592490052B4E6 /* Bildschirmfoto 2014-09-14 um 11.01.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bildschirmfoto 2014-09-14 um 11.01.27.png"; sourceTree = "<group>"; };
+		CD934ABE19C598DD0052B4E6 /* Bildschirmfoto 2014-09-14 um 11.33.29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bildschirmfoto 2014-09-14 um 11.33.29.png"; sourceTree = "<group>"; };
+		CD934AC019C59D2E0052B4E6 /* pillbox_logo_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_29.png; sourceTree = "<group>"; };
+		CD934AC119C59D2E0052B4E6 /* pillbox_logo_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_40.png; sourceTree = "<group>"; };
+		CD934AC219C59D2E0052B4E6 /* pillbox_logo_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_58.png; sourceTree = "<group>"; };
+		CD934AC319C59D2E0052B4E6 /* pillbox_logo_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_60.png; sourceTree = "<group>"; };
+		CD934AC419C59D2E0052B4E6 /* pillbox_logo_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_76.png; sourceTree = "<group>"; };
+		CD934AC519C59D2E0052B4E6 /* pillbox_logo_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_80.png; sourceTree = "<group>"; };
+		CD934AC619C59D2E0052B4E6 /* pillbox_logo_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_120.png; sourceTree = "<group>"; };
+		CD934AC719C59D2E0052B4E6 /* pillbox_logo_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_152.png; sourceTree = "<group>"; };
+		CD934AC819C59D2E0052B4E6 /* pillbox_logo_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillbox_logo_512.png; sourceTree = "<group>"; };
+		CDBA920919C48CAB005F61EB /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = SOURCE_ROOT; };
+		CDBA920A19C48CAB005F61EB /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = SOURCE_ROOT; };
+		CDBA920C19C48CB2005F61EB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CDBA920D19C48CB2005F61EB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CDBA920F19C494DF005F61EB /* header_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header_bg.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD689FDE19C4791000E25CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD689FE719C4791000E25CAC /* CoreGraphics.framework in Frameworks */,
+				CD689FE919C4791000E25CAC /* UIKit.framework in Frameworks */,
+				CD689FE519C4791000E25CAC /* Foundation.framework in Frameworks */,
+				5909DA1DF11944F6924F8DCE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD68A00219C4791000E25CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68A00719C4791000E25CAC /* XCTest.framework in Frameworks */,
+				CD68A00919C4791000E25CAC /* UIKit.framework in Frameworks */,
+				CD68A00819C4791000E25CAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD689FD819C4791000E25CAC = {
+			isa = PBXGroup;
+			children = (
+				CD689FEA19C4791000E25CAC /* PillManager */,
+				CD68A00C19C4791000E25CAC /* PillManagerTests */,
+				CD689FE319C4791000E25CAC /* Frameworks */,
+				CD689FE219C4791000E25CAC /* Products */,
+				4D058FB7E4794EADBA2B015F /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CD689FE219C4791000E25CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD689FE119C4791000E25CAC /* PillManager.app */,
+				CD68A00519C4791000E25CAC /* PillManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD689FE319C4791000E25CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD689FE419C4791000E25CAC /* Foundation.framework */,
+				CD689FE619C4791000E25CAC /* CoreGraphics.framework */,
+				CD689FE819C4791000E25CAC /* UIKit.framework */,
+				CD68A00619C4791000E25CAC /* XCTest.framework */,
+				4497A729DAF84FF88469F107 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD689FEA19C4791000E25CAC /* PillManager */ = {
+			isa = PBXGroup;
+			children = (
+				CD689FF619C4791000E25CAC /* Main_iPhone.storyboard */,
+				CD689FF919C4791000E25CAC /* Main_iPad.storyboard */,
+				CD68A01C19C4827700E25CAC /* Models */,
+				CD68A02019C4841F00E25CAC /* Views */,
+				CD689FF319C4791000E25CAC /* AppDelegate.h */,
+				CD689FF419C4791000E25CAC /* AppDelegate.m */,
+				CD689FFF19C4791000E25CAC /* Images.xcassets */,
+				CD689FEB19C4791000E25CAC /* Supporting Files */,
+			);
+			path = PillManager;
+			sourceTree = "<group>";
+		};
+		CD689FEB19C4791000E25CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD934ABE19C598DD0052B4E6 /* Bildschirmfoto 2014-09-14 um 11.33.29.png */,
+				CD934ABC19C592490052B4E6 /* Bildschirmfoto 2014-09-14 um 11.01.27.png */,
+				CD934ABB19C58E650052B4E6 /* user */,
+				CD75530419C4D31600AB3896 /* Fonts */,
+				CDBA920F19C494DF005F61EB /* header_bg.png */,
+				CD689FEC19C4791000E25CAC /* PillManager-Info.plist */,
+				CD689FED19C4791000E25CAC /* InfoPlist.strings */,
+				CD689FF019C4791000E25CAC /* main.m */,
+				CD689FF219C4791000E25CAC /* PillManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD68A00C19C4791000E25CAC /* PillManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD68A01219C4791000E25CAC /* PillManagerTests.m */,
+				CD68A00D19C4791000E25CAC /* Supporting Files */,
+			);
+			path = PillManagerTests;
+			sourceTree = "<group>";
+		};
+		CD68A00D19C4791000E25CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD68A00E19C4791000E25CAC /* PillManagerTests-Info.plist */,
+				CD68A00F19C4791000E25CAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD68A01C19C4827700E25CAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDBA920919C48CAB005F61EB /* APIClient.h */,
+				CDBA920A19C48CAB005F61EB /* APIClient.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CD68A02019C4841F00E25CAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDBA920C19C48CB2005F61EB /* LoginViewController.h */,
+				CDBA920D19C48CB2005F61EB /* LoginViewController.m */,
+				CD934AA119C4FC800052B4E6 /* PatientListTableTableViewController.h */,
+				CD934AA219C4FC800052B4E6 /* PatientListTableTableViewController.m */,
+				CD934AA419C4FD2D0052B4E6 /* PatientListCell.h */,
+				CD934AA519C4FD2D0052B4E6 /* PatientListCell.m */,
+				CD689FFC19C4791000E25CAC /* ViewController.h */,
+				CD689FFD19C4791000E25CAC /* ViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CD75530419C4D31600AB3896 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BC30E19C4DB7A00E17926 /* TitilliumWeb-Black.ttf */,
+				CD1BC30F19C4DB7A00E17926 /* TitilliumWeb-Bold.ttf */,
+				CD1BC31019C4DB7A00E17926 /* TitilliumWeb-BoldItalic.ttf */,
+				CD1BC31119C4DB7A00E17926 /* TitilliumWeb-ExtraLight.ttf */,
+				CD1BC31219C4DB7A00E17926 /* TitilliumWeb-ExtraLightItalic.ttf */,
+				CD1BC31319C4DB7A00E17926 /* TitilliumWeb-Italic.ttf */,
+				CD1BC31419C4DB7A00E17926 /* TitilliumWeb-Light.ttf */,
+				CD1BC31519C4DB7A00E17926 /* TitilliumWeb-LightItalic.ttf */,
+				CD1BC31619C4DB7A00E17926 /* TitilliumWeb-Regular.ttf */,
+				CD1BC31719C4DB7A00E17926 /* TitilliumWeb-SemiBold.ttf */,
+				CD1BC31819C4DB7A00E17926 /* TitilliumWeb-SemiBoldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CD934ABB19C58E650052B4E6 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				CD934AC019C59D2E0052B4E6 /* pillbox_logo_29.png */,
+				CD934AC119C59D2E0052B4E6 /* pillbox_logo_40.png */,
+				CD934AC219C59D2E0052B4E6 /* pillbox_logo_58.png */,
+				CD934AC319C59D2E0052B4E6 /* pillbox_logo_60.png */,
+				CD934AC419C59D2E0052B4E6 /* pillbox_logo_76.png */,
+				CD934AC519C59D2E0052B4E6 /* pillbox_logo_80.png */,
+				CD934AC619C59D2E0052B4E6 /* pillbox_logo_120.png */,
+				CD934AC719C59D2E0052B4E6 /* pillbox_logo_152.png */,
+				CD934AC819C59D2E0052B4E6 /* pillbox_logo_512.png */,
+				CD934AA719C58E540052B4E6 /* mädchen_130x165.jpg */,
+				CD934AA819C58E540052B4E6 /* mädchen.jpg */,
+				CD934AA919C58E540052B4E6 /* Oma1_130x165.jpg */,
+				CD934AAA19C58E540052B4E6 /* Oma1.jpg */,
+				CD934AAB19C58E540052B4E6 /* opa1_130x165.jpg */,
+				CD934AAC19C58E540052B4E6 /* opa1.jpg */,
+				CD934AAD19C58E540052B4E6 /* woman1_130x165.jpg */,
+				CD934AAE19C58E540052B4E6 /* woman1.jpg */,
+				CD934AAF19C58E540052B4E6 /* woman2_130x165.jpg */,
+				CD934AB019C58E540052B4E6 /* woman2.jpg */,
+				CD934A9C19C4EDCF0052B4E6 /* pillbox_logo_Startscreen_transparent.png */,
+			);
+			name = user;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD689FE019C4791000E25CAC /* PillManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD68A01619C4791000E25CAC /* Build configuration list for PBXNativeTarget "PillManager" */;
+			buildPhases = (
+				A4D8557CBB454ADEBDD043E9 /* Check Pods Manifest.lock */,
+				CD689FDD19C4791000E25CAC /* Sources */,
+				CD689FDE19C4791000E25CAC /* Frameworks */,
+				CD689FDF19C4791000E25CAC /* Resources */,
+				B42A6E2B72054D73898E4CEA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PillManager;
+			productName = PillManager;
+			productReference = CD689FE119C4791000E25CAC /* PillManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD68A00419C4791000E25CAC /* PillManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD68A01919C4791000E25CAC /* Build configuration list for PBXNativeTarget "PillManagerTests" */;
+			buildPhases = (
+				CD68A00119C4791000E25CAC /* Sources */,
+				CD68A00219C4791000E25CAC /* Frameworks */,
+				CD68A00319C4791000E25CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD68A00B19C4791000E25CAC /* PBXTargetDependency */,
+			);
+			name = PillManagerTests;
+			productName = PillManagerTests;
+			productReference = CD68A00519C4791000E25CAC /* PillManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD689FD919C4791000E25CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nico Merzbach";
+				TargetAttributes = {
+					CD689FE019C4791000E25CAC = {
+						DevelopmentTeam = LEF5P9L7YK;
+					};
+					CD68A00419C4791000E25CAC = {
+						TestTargetID = CD689FE019C4791000E25CAC;
+					};
+				};
+			};
+			buildConfigurationList = CD689FDC19C4791000E25CAC /* Build configuration list for PBXProject "PillManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD689FD819C4791000E25CAC;
+			productRefGroup = CD689FE219C4791000E25CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD689FE019C4791000E25CAC /* PillManager */,
+				CD68A00419C4791000E25CAC /* PillManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD689FDF19C4791000E25CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD689FFB19C4791000E25CAC /* Main_iPad.storyboard in Resources */,
+				CD934AD019C59D2E0052B4E6 /* pillbox_logo_152.png in Resources */,
+				CD934AD119C59D2E0052B4E6 /* pillbox_logo_512.png in Resources */,
+				CD1BC32019C4DB7A00E17926 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				CD934AB419C58E540052B4E6 /* Oma1.jpg in Resources */,
+				CD934ACE19C59D2E0052B4E6 /* pillbox_logo_80.png in Resources */,
+				CD934AB119C58E540052B4E6 /* mädchen_130x165.jpg in Resources */,
+				CD934ABF19C598DD0052B4E6 /* Bildschirmfoto 2014-09-14 um 11.33.29.png in Resources */,
+				CD934AB819C58E540052B4E6 /* woman1.jpg in Resources */,
+				CD934AC919C59D2E0052B4E6 /* pillbox_logo_29.png in Resources */,
+				CD1BC31C19C4DB7A00E17926 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				CD934ABD19C592490052B4E6 /* Bildschirmfoto 2014-09-14 um 11.01.27.png in Resources */,
+				CD934A9D19C4EDCF0052B4E6 /* pillbox_logo_Startscreen_transparent.png in Resources */,
+				CDBA921019C494DF005F61EB /* header_bg.png in Resources */,
+				CD934ABA19C58E540052B4E6 /* woman2.jpg in Resources */,
+				CD68A00019C4791000E25CAC /* Images.xcassets in Resources */,
+				CD934AB219C58E540052B4E6 /* mädchen.jpg in Resources */,
+				CD1BC31A19C4DB7A00E17926 /* TitilliumWeb-Bold.ttf in Resources */,
+				CD1BC31D19C4DB7A00E17926 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				CD934AB719C58E540052B4E6 /* woman1_130x165.jpg in Resources */,
+				CD1BC31F19C4DB7A00E17926 /* TitilliumWeb-Light.ttf in Resources */,
+				CD1BC32319C4DB7A00E17926 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				CD934AB319C58E540052B4E6 /* Oma1_130x165.jpg in Resources */,
+				CD1BC32119C4DB7A00E17926 /* TitilliumWeb-Regular.ttf in Resources */,
+				CD1BC31E19C4DB7A00E17926 /* TitilliumWeb-Italic.ttf in Resources */,
+				CD934ACF19C59D2E0052B4E6 /* pillbox_logo_120.png in Resources */,
+				CD689FF819C4791000E25CAC /* Main_iPhone.storyboard in Resources */,
+				CD689FEF19C4791000E25CAC /* InfoPlist.strings in Resources */,
+				CD934ACA19C59D2E0052B4E6 /* pillbox_logo_40.png in Resources */,
+				CD934AB619C58E540052B4E6 /* opa1.jpg in Resources */,
+				CD1BC31B19C4DB7A00E17926 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				CD934AB919C58E540052B4E6 /* woman2_130x165.jpg in Resources */,
+				CD934ACD19C59D2E0052B4E6 /* pillbox_logo_76.png in Resources */,
+				CD934ACB19C59D2E0052B4E6 /* pillbox_logo_58.png in Resources */,
+				CD1BC32219C4DB7A00E17926 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				CD934ACC19C59D2E0052B4E6 /* pillbox_logo_60.png in Resources */,
+				CD1BC31919C4DB7A00E17926 /* TitilliumWeb-Black.ttf in Resources */,
+				CD934AB519C58E540052B4E6 /* opa1_130x165.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD68A00319C4791000E25CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68A01119C4791000E25CAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4D8557CBB454ADEBDD043E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B42A6E2B72054D73898E4CEA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD689FDD19C4791000E25CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD934AA319C4FC800052B4E6 /* PatientListTableTableViewController.m in Sources */,
+				CD689FFE19C4791000E25CAC /* ViewController.m in Sources */,
+				CD934AA619C4FD2D0052B4E6 /* PatientListCell.m in Sources */,
+				CD689FF519C4791000E25CAC /* AppDelegate.m in Sources */,
+				CD689FF119C4791000E25CAC /* main.m in Sources */,
+				CDBA920B19C48CAB005F61EB /* APIClient.m in Sources */,
+				CDBA920E19C48CB2005F61EB /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD68A00119C4791000E25CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68A01319C4791000E25CAC /* PillManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD68A00B19C4791000E25CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD689FE019C4791000E25CAC /* PillManager */;
+			targetProxy = CD68A00A19C4791000E25CAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD689FED19C4791000E25CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD689FEE19C4791000E25CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD689FF619C4791000E25CAC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD689FF719C4791000E25CAC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CD689FF919C4791000E25CAC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD689FFA19C4791000E25CAC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CD68A00F19C4791000E25CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD68A01019C4791000E25CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD68A01419C4791000E25CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD68A01519C4791000E25CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD68A01719C4791000E25CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D058FB7E4794EADBA2B015F /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PillManager/PillManager-Prefix.pch";
+				INFOPLIST_FILE = "PillManager/PillManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD68A01819C4791000E25CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D058FB7E4794EADBA2B015F /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PillManager/PillManager-Prefix.pch";
+				INFOPLIST_FILE = "PillManager/PillManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD68A01A19C4791000E25CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PillManager.app/PillManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PillManager/PillManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PillManagerTests/PillManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD68A01B19C4791000E25CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PillManager.app/PillManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PillManager/PillManager-Prefix.pch";
+				INFOPLIST_FILE = "PillManagerTests/PillManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD689FDC19C4791000E25CAC /* Build configuration list for PBXProject "PillManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD68A01419C4791000E25CAC /* Debug */,
+				CD68A01519C4791000E25CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD68A01619C4791000E25CAC /* Build configuration list for PBXNativeTarget "PillManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD68A01719C4791000E25CAC /* Debug */,
+				CD68A01819C4791000E25CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD68A01919C4791000E25CAC /* Build configuration list for PBXNativeTarget "PillManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD68A01A19C4791000E25CAC /* Debug */,
+				CD68A01B19C4791000E25CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD689FD919C4791000E25CAC /* Project object */;
+}

@@ -1,0 +1,5 @@
+XSym
+0073
+b7bc804fcf4b77210b45b778e8d026b6
+../../AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

@@ -1,0 +1,5 @@
+XSym
+0059
+187a2f797198df750849cb5336e50222
+../../AFNetworking/AFNetworking/AFURLRequestSerialization.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

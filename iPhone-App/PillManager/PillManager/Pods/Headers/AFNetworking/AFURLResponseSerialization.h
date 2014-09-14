@@ -1,0 +1,5 @@
+XSym
+0060
+7351ccea4d2c7285aa402f9b60c788ad
+../../AFNetworking/AFNetworking/AFURLResponseSerialization.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
