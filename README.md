@@ -9,7 +9,8 @@ Max Nagy (Programmierung)
 Nico Merzbach (iPhone-App & Programmierung)
 Henrik Kother (Design & Programmierung)
 Tobias Hahnen (Hardware & Programmierung)
-Johannes & Byron (Design und Case)
+Johann Kipping (Design & Case)
+Byron Wider (Design & Case)
 
 Mit freundlicher Unterstützung von Andreas Banholzer und seiner Mannschaft
 vom Fab Lab Berlin ;)
